@@ -1,0 +1,40 @@
+// Fluffybottom styles
+
+body {
+    padding-top: 75px;
+}
+
+.container {
+    .content {
+        width: 800px;
+        margin: auto;
+        margin-bottom: 225px;
+    }
+}
+
+.signature {
+    float: right;
+    margin-top: 50px;
+    width: 303.168px;
+    height: 116.352px;
+    background: url("/assets/img/signapaw.png");
+}
+
+.footer {
+    color: @white;
+    z-index: 10000;
+    position: fixed;
+    overflow: visible;
+    text-align: center;
+    bottom: 0; left: 0; right: 0;
+    
+    .fill {
+        height: 20px;
+        padding: 5px;
+        .box-shadow(@shadow);
+        background-color: #222;
+        #gradient > .vertical(#333, #222);
+        @shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+        a { color: @grayLight; }
+    }
+}
