@@ -1,1 +1,3 @@
 Source for the smartopsatlanta.org website. Uses Jekyll and twitter bootstrap.
+Don't touch the _site directory, just do what you need in the html files, then run jekyll. use the _deploy.sh script to deploy. 
+
